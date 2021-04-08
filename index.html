@@ -36,7 +36,7 @@
         prom2 = document.getElementById("prom2").value;
         url = `http://perun.nti.tul.cz/~honza/tdw/kalkulator.php?prom1=${ prom1 }&&prom2=${ prom2 }`
         console.log(url)
-        let response = await fetch(url, {method:'GET',mode:'cors', headers:{'Content-Type': 'application/x-www-form-urlencoded', 'Access-Control-Allow-Origin': '*'}})
+        let response = await fetch(url, {method:'GET', headers:{'Content-Type': 'application/x-www-form-urlencoded'}})
         let data = await response.body
         console.log(data)
 
