@@ -1,9 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home</title>
-  </head>
-  <body></body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <title>Kalkulačka</title>
+</head>
+<body>
+    <div class="container">
+        <div class="card m-5 p-2 w-25 mx-auto shadow">
+            <form  action="" method="get" class="mt-5 w-75 mx-auto" id="calc">
+                
+                <label for="prom1" class="form-label mt-2">Číslo 1</label>
+                <input type="number" name="prom1" id="prom1" class="form-control" required>
+
+                <label for="prom2" class="form-label mt-5">Číslo 2</label>
+                <input type="number" name="prom2" id="prom2" class="form-control" required>
+
+                <button type="submit" class="my-5 btn btn-primary">Odeslat</button>
+            </form>
+        </div>
+        <div id="result">
+
+        </div>
+    </div>
+</body>
+<script>
+    form = document.getElementById("calc");
+    result = document.getElementById("result");
+
+    form.addEventListener("submit", async e=>{
+        e.preventDefault();
+        prom1 = document.getElementById("prom1").value;
+        prom2 = document.getElementById("prom2").value;
+        url = `http://perun.nti.tul.cz/~honza/tdw/kalkulator.php?prom1=${ prom1 }&&prom2=${ prom2 }`
+        console.log(url)
+        let response = await fetch(url, {method:'GET',mode:'cors', headers:{'Content-Type': 'application/x-www-form-urlencoded', 'Access-Control-Allow-Origin': '*'}})
+        let data = await response.body
+        console.log(data)
+
+        
+    })
+</script>
 </html>
