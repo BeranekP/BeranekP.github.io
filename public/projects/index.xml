@@ -6,19 +6,19 @@
     <description>Recent content in Projects on Pavel Beránek</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 19 Sep 2024 13:14:38 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 26 Feb 2024 13:14:38 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Quality check of recycling containers data in OpenStreetMap</title>
+      <title>Quality check of recycling container data in OpenStreetMap</title>
       <link>http://localhost:1313/projects/recycling/</link>
-      <pubDate>Thu, 19 Sep 2024 13:14:38 +0200</pubDate>
+      <pubDate>Mon, 26 Feb 2024 13:14:38 +0200</pubDate>
       <guid>http://localhost:1313/projects/recycling/</guid>
       <description>&lt;p&gt;Simple app written in Golang to visualize tagging mistakes on recycling containers in the Czech Republic.&#xA;It pulls data from Overpass API, then filters them and presents them using Leaflet.js. Data is converted to GeoJSON, compressed and sent to client.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://thartek.alwaysdata.net/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://thartek.alwaysdata.net/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;./recycling.png&#34; alt=&#34;Map of containers&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;source: &lt;a href=&#34;https://github.com/BeranekP/osm-recycle&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/BeranekP/osm-recycle&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Simple app for managing invoices</title>
+      <title>Invoice management for small entrepreneurs</title>
       <link>http://localhost:1313/projects/invoices/</link>
-      <pubDate>Thu, 19 Sep 2024 12:35:58 +0200</pubDate>
+      <pubDate>Mon, 04 Apr 2022 12:35:58 +0200</pubDate>
       <guid>http://localhost:1313/projects/invoices/</guid>
       <description>&lt;p&gt;Simple app for creating and managing invoices, customers build with Python/Django and SQL database.&#xA;Twilio Sendgrid is used for sending invoice over email.&lt;/p&gt;&#xA;&lt;h1 id=&#34;dashboard&#34;&gt;&#xD;&#xA;  Dashboard&#xD;&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#dashboard&#34;&gt;&#xD;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xD;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xD;&#xA;  &lt;/a&gt;&#xD;&#xA;&lt;/h1&gt;&#xD;&#xA;&lt;p&gt;Overview of last invoices and cashflow. Graph is made using Chart.js.&#xA;&lt;img src=&#34;./invoices-dash.png&#34; alt=&#34;Dashboard&#34; title=&#34;Application dashboard&#34;&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;invoice-preview&#34;&gt;&#xD;&#xA;  Invoice preview&#xD;&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#invoice-preview&#34;&gt;&#xD;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xD;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xD;&#xA;  &lt;/a&gt;&#xD;&#xA;&lt;/h1&gt;&#xD;&#xA;&lt;p&gt;HTML preview of the given invoice. Every invoice intended for bank transfer payment includes QR code for comfort of use.&#xA;The app also supports payments in other currencies than CZK, exchange rates are pulled from Czech National Bank.&#xA;&lt;img src=&#34;./invoices-preview.png&#34; alt=&#34;Preview&#34; title=&#34;Invoice preview&#34;&gt;&lt;/p&gt;</description>
     </item>

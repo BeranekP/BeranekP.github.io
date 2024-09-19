@@ -4,7 +4,10 @@ theme = "hugo-coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
 
-paginate = 20
+[pagination]
+  disableAliases = false
+  pagerSize = 20
+  path = 'page'
 
 [services]
 [services.disqus]
@@ -32,9 +35,9 @@ style = "github-dark"
   colorScheme = "dark"
   hidecolorschemetoggle = false
 
-  # customCSS = ["css/custom.css"]
+  customCSS = ["css/custom.css"]
   # customSCSS = ["scss/custom.scss"]
-  # customJS = ["js/custom.js"]
+  customJS = ["js/custom.js"]
 
 [taxonomies]
   category = "categories"
@@ -52,5 +55,9 @@ style = "github-dark"
 # Menu links
 [[menu.main]]
   name = "Projects"
-  weight = 2
+  weight = 1
   url = "projects/"
+[[menu.main]]
+  name = "Contact"
+  weight = 2
+  url = "contact/"
