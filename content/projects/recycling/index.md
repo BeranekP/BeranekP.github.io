@@ -1,6 +1,6 @@
 +++
 title = 'Quality check of recycling container data in OpenStreetMap'
-date = 2024-09-19T13:14:38+02:00
+date = 2024-02-26T13:14:38+02:00
 draft = false
 +++
 
