@@ -1,5 +1,5 @@
 +++
-title = 'Simple app for managing invoices'
+title = 'Invoice management for small entrepreneurs'
 date = 2024-09-19T12:35:58+02:00
 draft = false
 +++
