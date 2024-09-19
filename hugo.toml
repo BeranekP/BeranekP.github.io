@@ -1,0 +1,56 @@
+baseurl = "http://www.pberanek.eu"
+title = "Pavel Beránek"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 20
+
+[services]
+[services.disqus]
+disqusShortname = "pberanek"
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+  author = "Pavel Beránek"
+  info = "software tinkerer"
+  description = "Pavel Beránek personal website"
+  keywords = "blog, personal"
+  avatarurl = "images/photo.png"
+  #gravatar = "john.doe@example.com"
+
+  faviconSVG = "/img/favicon.svg"
+  favicon_32 = "/img/favicon-32x32.png"
+  favicon_16 = "/img/favicon-16x16.png"
+
+  since = 2019
+
+  enableTwemoji = true
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+  # customCSS = ["css/custom.css"]
+  # customSCSS = ["scss/custom.scss"]
+  # customJS = ["js/custom.js"]
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa-brands fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/BeranekP/"
+
+# Menu links
+[[menu.main]]
+  name = "Projects"
+  weight = 2
+  url = "projects/"

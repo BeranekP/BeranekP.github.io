@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <title>
+  Simple app for managing invoices · Pavel Beránek
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="Pavel Beránek">
+<meta name="description" content="Simple app for creating and managing invoices, customers build with Python/Django and SQL database.
+Twilio Sendgrid is used for sending invoice over email.
+
+  Dashboard
+  
+    
+    Link to heading
+  
+
+Overview of last invoices and cashflow. Graph is made using Chart.js.
+
+
+  Invoice preview
+  
+    
+    Link to heading
+  
+
+HTML preview of the given invoice. Every invoice intended for bank transfer payment includes QR code for comfort of use.
+The app also supports payments in other currencies than CZK, exchange rates are pulled from Czech National Bank.
+">
+<meta name="keywords" content="blog, personal">
+<meta name="fediverse:creator" content="" />
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Simple app for managing invoices">
+  <meta name="twitter:description" content="Simple app for creating and managing invoices, customers build with Python/Django and SQL database. Twilio Sendgrid is used for sending invoice over email.
+DashboardLink to headingOverview of last invoices and cashflow. Graph is made using Chart.js. Invoice previewLink to headingHTML preview of the given invoice. Every invoice intended for bank transfer payment includes QR code for comfort of use. The app also supports payments in other currencies than CZK, exchange rates are pulled from Czech National Bank. ">
+
+<meta property="og:url" content="http://localhost:1313/projects/invoices/">
+  <meta property="og:site_name" content="Pavel Beránek">
+  <meta property="og:title" content="Simple app for managing invoices">
+  <meta property="og:description" content="Simple app for creating and managing invoices, customers build with Python/Django and SQL database. Twilio Sendgrid is used for sending invoice over email.
+DashboardLink to headingOverview of last invoices and cashflow. Graph is made using Chart.js. Invoice previewLink to headingHTML preview of the given invoice. Every invoice intended for bank transfer payment includes QR code for comfort of use. The app also supports payments in other currencies than CZK, exchange rates are pulled from Czech National Bank. ">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="projects">
+    <meta property="article:published_time" content="2024-09-19T12:35:58+02:00">
+    <meta property="article:modified_time" content="2024-09-19T12:35:58+02:00">
+
+
+
+
+<link rel="canonical" href="http://localhost:1313/projects/invoices/">
+
+
+<link rel="preload" href="/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/css/coder.css" media="screen">
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/coder-dark.css" media="screen">
+  
+
+
+
+ 
+
+
+
+
+<link rel="icon" type="image/svg+xml" href="/img/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    
+    <a class="navigation-title" href="http://localhost:1313/">
+      Pavel Beránek
+    </a>
+    
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/projects/">Projects</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container page">
+  <article>
+    <header>
+      <h1 class="title">
+        <a class="title-link" href="http://localhost:1313/projects/invoices/">
+          Simple app for managing invoices
+        </a>
+      </h1>
+    </header>
+
+    <p>Simple app for creating and managing invoices, customers build with Python/Django and SQL database.
+Twilio Sendgrid is used for sending invoice over email.</p>
+<h1 id="dashboard">
+  Dashboard
+  <a class="heading-link" href="#dashboard">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h1>
+<p>Overview of last invoices and cashflow. Graph is made using Chart.js.
+<img src="./invoices-dash.png" alt="Dashboard" title="Application dashboard"></p>
+<h1 id="invoice-preview">
+  Invoice preview
+  <a class="heading-link" href="#invoice-preview">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h1>
+<p>HTML preview of the given invoice. Every invoice intended for bank transfer payment includes QR code for comfort of use.
+The app also supports payments in other currencies than CZK, exchange rates are pulled from Czech National Bank.
+<img src="./invoices-preview.png" alt="Preview" title="Invoice preview"></p>
+<h1 id="generated-pdf">
+  Generated PDF
+  <a class="heading-link" href="#generated-pdf">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h1>
+<p>A pdf invoice can also be generated. The PDf is generated on backend, it is client independent.
+<img src="./invoices-pdf.png" alt="PDF" title="Generated PDF"></p>
+<h2 id="demo">
+  Demo
+  <a class="heading-link" href="#demo">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p><a href="http://beranekp.pythonanywhere.com/"  class="external-link" target="_blank" rel="noopener">http://beranekp.pythonanywhere.com/</a></p>
+<p>Login: <a href="mailto:test@test.test" >test@test.test</a>
+Password: 123456</p>
+<p>source: <a href="https://github.com/BeranekP/InvoicesDjango"  class="external-link" target="_blank" rel="noopener">https://github.com/BeranekP/InvoicesDjango</a></p>
+
+  </article>
+</section>
+
+  
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+      2019 -
+    
+    2024
+     Pavel Beránek 
+    ·
+    
+    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="/js/coder.js"></script>
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+
+</html>
