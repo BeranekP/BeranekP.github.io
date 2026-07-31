@@ -1,0 +1,10 @@
+---
+title: "About"
+date: 2026-07-31T12:00:00+05:30
+description: "Personal site"
+author: ["Pavel Beranek"]
+draft: false
+hiddenInRss: true
+disableShare: true
+ShowBreadcrumbs: false
+---

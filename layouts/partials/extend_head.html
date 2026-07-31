@@ -1,0 +1,39 @@
+{{ if .Params.mermaid }}
+<style>
+/* Vynutí, aby byl text uvnitř všech dokončených (šedých) pruhů čistě bílý a čitelný */
+
+  /* 1. Reset standard container properties */
+
+
+  /* 3. Keep standard task boundaries locked */
+  .mermaid text.taskText {
+    font-size: 11px !important;
+
+
+    .mermaid g.done text.taskText,
+      .mermaid g.done text.taskTextOutsideRight,
+      .mermaid .task.done + text.taskText,
+      .mermaid text.taskDoneText {
+        fill: #111111 !important; /* Natvrdo tmavě šedá až černá barva */
+        color: #111111 !important;
+        font-weight: bold !important;
+  }
+</style>
+<script src="{{ "js/mermaid.min.js" | relURL }}"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    mermaid.initialize({ startOnLoad: true,
+      gantt: {
+              leftPadding: 180, // Pushes text box bounds explicitly to 250px
+              barHeight: 15,
+              barGap: 4,
+              topAxis: false,
+              rightPadding: 10,
+              numberSectionStyles: 2
+            },
+      theme: 'dark' });
+  });
+</script>
+
+
+{{ end }}

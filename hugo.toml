@@ -1,7 +1,7 @@
 baseurl = "http://www.pberanek.eu"
 title = "Pavel Beránek"
-theme = "hugo-coder"
-languagecode = "en"
+theme = "PaperMod"
+locale = "en"
 defaultcontentlanguage = "en"
 
 [pagination]
@@ -18,9 +18,9 @@ style = "github-dark"
 
 [params]
   author = "Pavel Beránek"
-  info = "software tinkerer, occasional CAD modeller"
+  info = " "
   description = "Pavel Beránek personal website"
-  keywords = "blog, personal"
+  keywords = ["blog", "personal"]
   avatarurl = "images/photo.png"
   #gravatar = "john.doe@example.com"
 
@@ -34,6 +34,12 @@ style = "github-dark"
 
   colorScheme = "dark"
   hidecolorschemetoggle = false
+
+  [params.profileMode]
+    enabled = true
+    title = "Pavel Beránek"
+    subtitle = "Welcome to my personal website."
+    imageTitle = "Pavel Beránek"
 
   customCSS = ["css/custom.css"]
   # customSCSS = ["scss/custom.scss"]
@@ -52,12 +58,23 @@ style = "github-dark"
   weight = 1
   url = "https://github.com/BeranekP/"
 
+[[homeInfoParams]]
+  Title = "Hi there \U0001F44B"
+  content = "Welcome to my blog"
+
+
+[[main]]
+  name = 'About'
+  pageRef = '/'
+  weight = 10
+
 # Menu links
-[[menu.main]]
-  name = "Projects"
-  weight = 1
-  url = "projects/"
-[[menu.main]]
-  name = "Contact"
-  weight = 2
-  url = "contact/"
+[menus]
+  [[menu.main]]
+    name = "Projects"
+    weight = 2
+    pageRef = "projects/"
+  [[menu.main]]
+    name = "Travel"
+    weight = 1
+    pageRef = "travel/"
