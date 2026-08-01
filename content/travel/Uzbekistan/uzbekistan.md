@@ -147,7 +147,7 @@ Zajištěno v rámci ubytování v Danexan Apa. Zbytné věci můžeme nechat na
 	- Short edited travel video (vlog)
 	- Overnight stay in a traditional yurt camp by the Aral Sea
 	- Wet wipes and trash bags provided
-	- Beshbarmak Experience
+	- [Beshbarmak](https://folkways.today/beshbarmak/) Experience
 	- Drinking water provided
 - **Itinerář**:  Nukus → Muynak → Dinner → Ustyurt Plateau → Kurgancha Kala → Aral Sea → Muynak( Ship cemetery) → Camel Farm Experience → Mizdakhan → Gaur Kala → Nukus
 ---
@@ -159,8 +159,17 @@ Zajištěno v rámci ubytování v Danexan Apa. Zbytné věci můžeme nechat na
 ### 28.-30.9. 2026 - Chiva
 #### Ancient Fortresses tour {#fortress}
 - Cena 60 USD/osoba
+	- - Driver-guide knowledgeable about history and the area
+	- Comfortable vehicle with air conditioning
+	- Drinking water provided
+	- Power bank for charging mobile devices
+	- Short edited travel video (vlog)
+	- Transfer and drop-off at your hotel
+	- Full board or specific meals as per program
+	- All museum and park entrance fees
 - odjezd ráno z hotelu Danexan
 - příjezd večer do hotelu RIZALI v Chivě
+- Itinerář:  Nukus - Chilpyk – Amu Darya Fish Lunch - Kyzyl Qala – Toprak Qala – Badai Tugai Nature Reserve - Khiva
 ---
 #### 28.-30.9.2026 - Ubytování {#accChiva}
 **RIZALI Family guest house**, *Мехнат Гули 11, 220900 Chiva, Uzbekistán*, [mapa](https://maps.app.goo.gl/5XxprqrByaDixv8u9)
