@@ -38,6 +38,7 @@
 	  themeVariables: {
         taskTextColor: "#ffffff",
         taskTextClickableColor: "inherit"
+		taskTextClickableFill: "white"
     },
 	
 	

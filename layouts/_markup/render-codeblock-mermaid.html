@@ -1,5 +1,13 @@
+{{ $content := .Inner | safeHTML }}
+
+{{ if findRE `(?m)^\s*gantt\b` .Inner }}
 <div class="gantt-scroll-wrapper" style="overflow-x: auto; width: 100%;">
   <div class="mermaid" style="display: block; min-width: 2500px;">
-    {{ .Inner | safeHTML }}
+    {{ $content }}
   </div>
 </div>
+{{ else }}
+<div class="mermaid">
+  {{ $content }}
+</div>
+{{ end }}
