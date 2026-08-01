@@ -32,6 +32,7 @@ style = "github-dark"
 
   enableTwemoji = true
 
+  defaultTheme = "dark"
   colorScheme = "dark"
   hidecolorschemetoggle = false
 

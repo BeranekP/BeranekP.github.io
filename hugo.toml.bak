@@ -1,5 +1,5 @@
 baseurl = "http://www.pberanek.eu"
-title = "Pavel Beránek"
+title = "TototJatoTrava"
 theme = "PaperMod"
 locale = "en"
 defaultcontentlanguage = "en"
@@ -32,6 +32,7 @@ style = "github-dark"
 
   enableTwemoji = true
 
+  defaultTheme = dark
   colorScheme = "dark"
   hidecolorschemetoggle = false
 
