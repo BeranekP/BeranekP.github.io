@@ -2,17 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Travel on TototJatoTrava</title>
-    <link>http://www.pberanek.eu/travel/</link>
+    <link>http://localhost:1313/travel/</link>
     <description>Recent content in Travel on TototJatoTrava</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 31 Jul 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://www.pberanek.eu/travel/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/travel/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Uzbekistán</title>
-      <link>http://www.pberanek.eu/travel/uzbekistan/uzbekistan/</link>
+      <link>http://localhost:1313/travel/uzbekistan/uzbekistan/</link>
       <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
-      <guid>http://www.pberanek.eu/travel/uzbekistan/uzbekistan/</guid>
+      <guid>http://localhost:1313/travel/uzbekistan/uzbekistan/</guid>
       <description>Planning of the trip to Uzbekistan 2026</description>
     </item>
   </channel>

@@ -8,7 +8,9 @@ mermaid = true
 
 
 ## Itinerář
-[Přehledná mapa](https://umap.openstreetmap.fr/cs-cz/map/uzbekistan-2026_1402273#7/41.594905/62.105713)
+[Přehledná mapa >](https://umap.openstreetmap.fr/cs-cz/map/uzbekistan-2026_1402273#7/41.594905/62.105713)
+
+{{< iframe src="https://umap.openstreetmap.fr/cs-cz/map/uzbekistan-2026_1402273" height="600" >}}
 
 ### Diagram
 ```mermaid
@@ -159,7 +161,7 @@ Zajištěno v rámci ubytování v Danexan Apa. Zbytné věci můžeme nechat na
 ### 28.-30.9. 2026 - Chiva
 #### Ancient Fortresses tour {#fortress}
 - Cena 60 USD/osoba
-	- - Driver-guide knowledgeable about history and the area
+	- Driver-guide knowledgeable about history and the area
 	- Comfortable vehicle with air conditioning
 	- Drinking water provided
 	- Power bank for charging mobile devices
@@ -184,6 +186,7 @@ flowchart LR
 
     e1@{ animation: fast }
 ```
+---
 #### 30.9-2.10.2026 - Ubytování {#accBuch}
 cca 12 km od nádraží, přesun taxíkem
 

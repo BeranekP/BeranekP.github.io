@@ -1,0 +1,23 @@
+/*
+This is just a placeholder blank stylesheet so as to support adding custom styles budled with theme's default styles
+
+Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-css-with-themes-assets for more info
+*/
+.boxify {
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 8px;
+    background: #222222;
+    border-left: 5px solid #4a90e2;
+}
+
+.gantt-scroll-wrapper .mermaid svg a .taskTextOutsideRight,
+.gantt-scroll-wrapper .mermaid svg a .taskTextOutsideLeft {
+    fill: white !important;
+    color: white !important;
+}
+
+.gantt-scroll-wrapper .mermaid svg a .taskTextOutsideRight tspan,
+.gantt-scroll-wrapper .mermaid svg a .taskTextOutsideLeft tspan {
+    fill: white !important;
+}
