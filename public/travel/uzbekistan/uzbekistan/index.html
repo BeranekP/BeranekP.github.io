@@ -34,6 +34,75 @@
     }
 
 </script>
+<style>
+   
+
+   
+
+
+   
+  .mermaid text.taskText {
+    font-size: 11px !important;
+
+
+    .mermaid g.done text.taskText,
+    .mermaid g.done text.taskTextOutsideRight,
+    .mermaid .task.done+text.taskText,
+    .mermaid text.taskDoneText {
+      fill: #111111 !important;
+       
+      color: #111111 !important;
+      font-weight: bold !important;
+    }
+    #a62-text
+    {
+      color:black !important;  }
+    text.taskText.taskText1.doneText1{
+      color:black !important;  }
+</style>
+<script src="/js/mermaid.min.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    mermaid.initialize({
+      startOnLoad: true,
+      securityLevel: 'loose',
+      gantt: {
+        leftPadding: 180, 
+        barHeight: 15,
+        barGap: 4,
+        topAxis: false,
+        rightPadding: 10,
+        numberSectionStyles: 2
+      },
+      theme: 'dark',
+	  themeVariables: {
+        taskTextColor: "#ffffff",
+        taskTextClickableColor: "inherit",
+        doneText1Color: "#000000",
+        doneText1Color: "#000000"
+    },
+
+
+    });
+  });
+  document.addEventListener("DOMContentLoaded", () => {
+    setTimeout(() => {
+      document.querySelectorAll(".doneText0 ").
+        forEach(el => {
+          el.style.setProperty("fill", "#000000", "important")
+        })
+      document.querySelectorAll(".doneText1 ").
+        forEach(el => {
+          el.style.setProperty("fill", "#000000", "important")
+        })
+    }, 2000)
+
+  });
+</script>
+
+
+
+
 </head>
 <body id="top">
     <header class="header">
