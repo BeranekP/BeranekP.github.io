@@ -8,7 +8,15 @@ Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-cs
     margin: 1rem 0;
     border-radius: 8px;
     background: #222222;
-    border-left: 5px solid #4a90e2;
+
+}
+
+.boxify-note{
+    border-left: 5px solid #ff6961;
+}
+
+.boxify-done{
+    border-left: 5px solid #93C572;
 }
 
 .gantt-scroll-wrapper .mermaid svg a .taskTextOutsideRight,

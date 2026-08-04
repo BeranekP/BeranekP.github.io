@@ -1,3 +1,4 @@
-<div class="boxify">
+{{ $type := .Get 0 | default "note" }}
+<div class="boxify boxify-{{ $type }}">
     {{ .Inner | markdownify }}
 </div>

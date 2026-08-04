@@ -13,6 +13,8 @@ mermaid = true
 {{< iframe src="https://umap.openstreetmap.fr/cs-cz/map/uzbekistan-2026_1402273" height="600" >}}
 
 ### Diagram
+*Diagram je klikací, po kliknutí přesměruje na příslušnou kapitolu itineráře*
+
 ```mermaid
 %%{init: {
   'theme': 'dark',
@@ -94,7 +96,7 @@ gantt
 
 ```
 
-{{< boxify >}}
+{{< boxify done >}}
 ### 23.9.2026 - Praha → Taškent
 #### Let {#flight1}
 Praha, Terminál 1
@@ -116,7 +118,7 @@ flowchart LR
 
 {{< /boxify >}}
 
-{{< boxify >}}
+{{< boxify done >}}
 ### 25.9.2026 - Taškent → Nukus
 #### Let {#flight2}
 Taškent, Terminál 3 (*opačná strana letiště*) [mapa](https://maps.app.goo.gl/ztmrq2Sqq9W5GgNHA)
@@ -135,7 +137,7 @@ Zajištěna doprava z letiště v rámci ubytování.
 **Danexan Apa**, *Ulice Kok ozek 30/1, Nukus, Uzbekistán*, [mapa](https://maps.app.goo.gl/V6C6xD3pQvwRXW1d9)
 {{< /boxify >}}
 
-{{< boxify >}}
+{{< boxify done >}}
 ### 26.-27.9.2026 -  Výlet Aral {#aral}
 Zajištěno v rámci ubytování v Danexan Apa. Zbytné věci můžeme nechat na ubytování v Nukusu. Odjezd ráno z hotelu, příjezd druhý den večer na hotel.
 - V ceně (190 USD/osoba):
@@ -157,7 +159,7 @@ Zajištěno v rámci ubytování v Danexan Apa. Zbytné věci můžeme nechat na
 **Danexan Apa**, *Ulice Kok ozek 30/1, Nukus, Uzbekistán*, [mapa](https://maps.app.goo.gl/V6C6xD3pQvwRXW1d9)
 {{< /boxify >}}
 
-{{< boxify >}}
+{{< boxify done >}}
 ### 28.-30.9. 2026 - Chiva
 #### Ancient Fortresses tour {#fortress}
 - Cena 60 USD/osoba
@@ -179,7 +181,7 @@ Zajištěno v rámci ubytování v Danexan Apa. Zbytné věci můžeme nechat na
 
 {{< boxify >}}
 ### 30.9-2.10.2026 - Buchara {#train1}
-- přesun vlakem Jaloliddin Manguberdi 
+- přesun vlakem [Jaloliddin Manguberdi](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/20220911_Cheongnyangni_Station_KTX-Eum_504.jpg/1920px-20220911_Cheongnyangni_Station_KTX-Eum_504.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail)
 ```mermaid
 flowchart LR
     Chiva["Chiva 7:15"] e1@-->|751M| Buchara["Buchara 10:37"]
@@ -193,9 +195,9 @@ cca 12 km od nádraží, přesun taxíkem
 **Ikat Terrace**, *Mekhtar Anbar Street 71, 200101 Buchara, Uzbekistán*, [mapa](https://maps.app.goo.gl/fu1GVwV2KfASZbPX6)
 {{< /boxify >}}
 
-{{< boxify >}}
+{{< boxify done >}}
 ### 2.-5.10.2026 - Samarkand {#train2}
-- přesun vlakem Afrosiyob, jízdenky zajištěny  
+- přesun vlakem [Afrosiyob](https://upload.wikimedia.org/wikipedia/commons/8/8b/Talgo_250_Afrosiyob_05-06%2C_Bukhara_station.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled), jízdenky zajištěny  
 ```mermaid
 flowchart LR
     Buchara["Buchara 15:09"] e1@-->|769Ф| Samarkand["Samarkand	16:46"]
@@ -223,7 +225,7 @@ flowchart LR
 
 {{< boxify >}}
 ### 5.-7.10.2026 - Taškent {#train3}
-- přesun vlakem Afrosiyob 
+- přesun vlakem [Afrosiyob](https://upload.wikimedia.org/wikipedia/commons/8/8b/Talgo_250_Afrosiyob_05-06%2C_Bukhara_station.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled)
 ```mermaid
 flowchart LR
     Samarkand["Samarkand 16:56"] e1@-->|769Ф| Taškent["Taškent	19:17"]
@@ -236,7 +238,7 @@ flowchart LR
 {{< /boxify >}}
 
 
-{{< boxify >}}
+{{< boxify done >}}
 ### 7.10.2026 - Taškent → Praha {#flight3}
 Taškent, Terminál 2
 
@@ -250,4 +252,12 @@ flowchart LR
     e2@{ animation: fast }
 ```
 - máme hodinu na přestup, což je hraniční, přesun bude svižný
+{{< /boxify >}}
+
+{{< boxify done >}}
+### Poznámky
+- výběr z bankomatů vždy zpoplatněn alespoň 1,5 %
+- na taxíky použijeme aplikaci Yandex Go
+- 
+
 {{< /boxify >}}
