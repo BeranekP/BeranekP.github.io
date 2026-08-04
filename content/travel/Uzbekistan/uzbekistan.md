@@ -195,20 +195,14 @@ cca 12 km od nádraží, přesun taxíkem
 
 {{< boxify >}}
 ### 2.-5.10.2026 - Samarkand {#train2}
-- přesun vlakem Afrosiyob  
+- přesun vlakem Afrosiyob, jízdenky zajištěny  
 ```mermaid
 flowchart LR
     Buchara["Buchara 15:09"] e1@-->|769Ф| Samarkand["Samarkand	16:46"]
 
     e1@{ animation: fast }
 ```
-nebo 
-```mermaid
-flowchart LR
-    Buchara["Buchara 16:22"] e1@-->|765Ф| Samarkand["Samarkand	18:05"]
 
-    e1@{ animation: fast }
-```
 ---
 #### 4.10.2026 - Výlet na 7 jezer {#lakes}
 - odjezd/příjezd k hotelu
@@ -257,4 +251,3 @@ flowchart LR
 ```
 - máme hodinu na přestup, což je hraniční, přesun bude svižný
 {{< /boxify >}}
-
