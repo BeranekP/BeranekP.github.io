@@ -206,7 +206,7 @@ flowchart LR
 ```
 
 ---
-#### 4.10.2026 - Výlet na 7 jezer {#lakes}
+#### 3.10.2026 - Výlet na 7 jezer {#lakes}
 - odjezd/příjezd k hotelu
 - cena 60 USD/osoba
 - zajištěno přes https://www.centraliatours.com/en
