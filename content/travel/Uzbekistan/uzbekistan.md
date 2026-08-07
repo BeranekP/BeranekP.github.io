@@ -76,7 +76,7 @@ gantt
 
     section 6. Samarkand
         vlak do Samarkandu :a61, 2026-10-02 15:09, 2026-10-02 16:46
-        3 noci :done, a62, 2026-10-02 16:46, 2026-10-05 08:10
+        3 noci :done, a62, 2026-10-02 16:46, 2026-10-05 17:40
         výlet 7 lakes :crit, a63, 2026-10-03 07:00, 2026-10-03 18:00
 		
 		click a61 href "#train2"
@@ -84,7 +84,7 @@ gantt
 		click a63 href "#lakes"
 
     section 7. Taškent & Odlet
-        vlak do Taškentu :a71, 2026-10-05 08:10, 2026-10-05 12:19
+        vlak do Taškentu :a71, 2026-10-05 17:40, 2026-10-05 20:12
         2 noci :done, a72, 2026-10-05 12:19, 2026-10-07 07:20
         letiště :a73, 2026-10-07 07:20, 2026-10-07 09:20
         let domů :a74, 2026-10-07 09:20, 2026-10-07 12:30
