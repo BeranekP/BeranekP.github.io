@@ -223,12 +223,13 @@ flowchart LR
 {{< /boxify >}}
 
 
-{{< boxify >}}
+{{< boxify done>}}
 ### 5.-7.10.2026 - Taškent {#train3}
 - přesun vlakem [Afrosiyob](https://upload.wikimedia.org/wikipedia/commons/8/8b/Talgo_250_Afrosiyob_05-06%2C_Bukhara_station.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled)
+- jízdenky po velkém boji zajištěny
 ```mermaid
 flowchart LR
-    Samarkand["Samarkand 16:56"] e1@-->|769Ф| Taškent["Taškent	19:17"]
+    Samarkand["Samarkand 17:40"] e1@-->|767Ф| Taškent["Taškent	20:12"]
 
     e1@{ animation: fast }
 ```
