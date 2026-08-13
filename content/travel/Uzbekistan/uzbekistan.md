@@ -110,6 +110,10 @@ flowchart LR
     e1@{ animation: fast }
     e2@{ animation: fast }
 ```
+- zavazadla: 
+  - 1 checkované zavazadlo: 23 kg, D+Š+V < 158 cm
+  - 1 kabinové zavazadlo: 8 kg, D+Š+V < 118 cm
+  - 1 personal item: 4 kg (40 x 30 x 15cm)
 
 ---
 #### 23.-25.9.2026 - Ubytování {#accTAS1}
@@ -129,7 +133,12 @@ flowchart LR
 
     e1@{ animation: fast }
 ```
-
+*Passengers are required to present all checked baggage and hand baggage for processing at the check-in counter.*
+- zavazadla: 
+  - 1 checkované zavazadlo: 23 kg, D+Š+V < 158 cm
+  - 1 kabinové zavazadlo: 8 kg, D+Š+V < 115 cm, (55 x 35 x 25cm)
+  - 1 personal item: 5 kg, D+Š+V < 92 cm
+  
 Zajištěna doprava z letiště v rámci ubytování.
 
 ---
@@ -265,11 +274,11 @@ flowchart LR
 {{< /boxify >}}
 
 {{< boxify done >}}
-#### Náklady na osobu
-- letenka PRG-IST-TAS a zpět: 13 381 Kč :white_check_mark:
+### Náklady na osobu
+- letenka *PRG-IST-TAS* a zpět: 13 381 Kč :white_check_mark:
   - čekáme vratku za zrušené lety, rozdíl se rozúčtuje
-- letenka TAS-NCU: 1454 Kč :white_check_mark:
-- vlak Buchara 1 → Samarkand: 395 Kč :white_check_mark:
-- vlak Samarkand → Taškent: 634 Kč :white_check_mark:
+- letenka *TAS-NCU*: 1454 Kč :white_check_mark:
+- vlak *Buchara 1 → Samarkand*: 395 Kč :white_check_mark:
+- vlak *Samarkand → Taškent*: 634 Kč :white_check_mark:
 
 {{< /boxify >}}
