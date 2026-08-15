@@ -276,7 +276,7 @@ flowchart LR
 {{< boxify done >}}
 ### Náklady na osobu
 - letenka *PRG-IST-TAS* a zpět: 13 381 Kč :white_check_mark:
-  - čekáme vratku za zrušené lety, rozdíl se rozúčtuje
+  - doplatek 469 Kč
 - letenka *TAS-NCU*: 1454 Kč :white_check_mark:
 - vlak *Buchara 1 → Samarkand*: 395 Kč :white_check_mark:
 - vlak *Samarkand → Taškent*: 634 Kč :white_check_mark:
