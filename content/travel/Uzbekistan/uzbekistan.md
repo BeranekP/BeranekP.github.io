@@ -6,8 +6,8 @@ summary = "Planning of the trip to Uzbekistan 2026"
 mermaid = true
 
 [cover]
-image = "mtorrazzina-uzbekistan-4911018_1920.jpg"
-relative = true
+image = "images/mtorrazzina-uzbekistan-4911018_1920.jpg"
+relative = false
 
 
 +++
