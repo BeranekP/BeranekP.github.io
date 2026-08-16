@@ -12,7 +12,7 @@ enableEmoji = true
 
 [services]
 [services.disqus]
-disqusShortname = "pberanek"
+disqusShortname = "TototJatoTrava"
 
 [markup.highlight]
 style = "github-dark"
@@ -36,6 +36,7 @@ style = "github-dark"
   defaultTheme = "dark"
   colorScheme = "dark"
   hidecolorschemetoggle = false
+  UseHugoToc = true
   showtoc = true
 
   [params.profileMode]
