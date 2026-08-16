@@ -36,7 +36,6 @@ style = "github-dark"
   defaultTheme = "dark"
   colorScheme = "dark"
   hidecolorschemetoggle = false
-  UseHugoToc = true
   showtoc = true
 
   [params.profileMode]
