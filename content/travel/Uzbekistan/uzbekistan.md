@@ -270,6 +270,11 @@ flowchart LR
 - na taxíky použijeme aplikaci Yandex Go
 - eSIM na letišti, operátor Ucell, [mapa pokrytí](https://ucell.uz/en/coverage_map), [měření](https://www.nperf.com/en/map/UZ/-/208152.Ucell-Mobile/signal?ll=39.402244340292775&lg=66.25343860869943&zoom=7)
 - vlaky https://eticket.railway.uz/
+- doporučené telegramové kanály: 
+    - https://t.me/uzrailpassuz
+    - https://t.me/railwayexpress_uz
+    - https://t.me/uzrailways_uz
+    - https://t.me/uzbektourismofficial
 
 {{< /boxify >}}
 
