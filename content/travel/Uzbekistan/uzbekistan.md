@@ -282,7 +282,7 @@ flowchart LR
     - https://t.me/railwayexpress_uz
     - https://t.me/uzrailways_uz
     - https://t.me/uzbektourismofficial
-
+- sledování jízdenek Khiva-Buchara, září 2026: https://railcheck-9251.rostiapp.cz/
 {{< /boxify >}}
 
 {{< boxify done >}}
