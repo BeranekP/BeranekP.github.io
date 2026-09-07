@@ -195,7 +195,7 @@ Zajištěno v rámci ubytování v Danexan Apa. Zbytné věci můžeme nechat na
 **RIZALI Family guest house**, *Мехнат Гули 11, 220900 Chiva, Uzbekistán*, [mapa](https://maps.app.goo.gl/5XxprqrByaDixv8u9)
 {{< /boxify >}}
 
-{{< boxify >}}
+{{< boxify done>}}
 ### 30.9-2.10.2026 - Buchara {#train1}
 - přesun vlakem [Jaloliddin Manguberdi](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/20220911_Cheongnyangni_Station_KTX-Eum_504.jpg/1920px-20220911_Cheongnyangni_Station_KTX-Eum_504.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail)
 ```mermaid
@@ -288,8 +288,8 @@ flowchart LR
 {{< boxify done >}}
 ### Náklady na osobu
 - letenka *PRG-IST-TAS* a zpět: 13 381 Kč :white_check_mark:
-  - doplatek 469 Kč
 - letenka *TAS-NCU*: 1454 Kč :white_check_mark:
+- vlak *Chiva → Buchara 1*: 586 Kč :white_check_mark:
 - vlak *Buchara 1 → Samarkand*: 395 Kč :white_check_mark:
 - vlak *Samarkand → Taškent*: 634 Kč :white_check_mark:
 
