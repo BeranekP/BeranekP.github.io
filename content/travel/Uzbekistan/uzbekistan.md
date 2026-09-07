@@ -200,7 +200,7 @@ Zajištěno v rámci ubytování v Danexan Apa. Zbytné věci můžeme nechat na
 - přesun vlakem [Jaloliddin Manguberdi](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/20220911_Cheongnyangni_Station_KTX-Eum_504.jpg/1920px-20220911_Cheongnyangni_Station_KTX-Eum_504.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail)
 ```mermaid
 flowchart LR
-    Chiva["Chiva 7:15"] e1@-->|751M| Buchara["Buchara 10:37"]
+    Chiva["Chiva 7:10"] e1@-->|751M| Buchara["Buchara 10:38"]
 
     e1@{ animation: fast }
 ```
