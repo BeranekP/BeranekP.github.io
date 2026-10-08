@@ -286,26 +286,26 @@ flowchart LR
 
 {{< boxify done >}}
 ### Náklady na osobu
-  ## Doprava
+  #### Doprava
   - letenka *PRG-IST-TAS* a zpět: 13 381 Kč :white_check_mark:
   - letenka *TAS-NCU*: 1454 Kč :white_check_mark:
   - vlak *Chiva → Buchara 1*: 586 Kč :white_check_mark:
   - vlak *Buchara 1 → Samarkand*: 395 Kč :white_check_mark:
   - vlak *Samarkand → Taškent*: 634 Kč :white_check_mark:
   - taxi *Yandex*: 383 Kč
-  ## SIM
+  #### SIM
   - UCell BOR 70, 140 GB: 129 Kč
-  ## Tůry s průvodcem
+  #### Túry s průvodcem
   - Aral: 4 057 Kč
   - Ancient Khorezm Fortresses: 1281 Kč
   - Seven Lakes: 1281 Kč
-  ## Vstupy
+  #### Vstupy
   - vstupy do madras, mešit a minaretů: 1 770 Kč
   - WC: 31 Kč
-  ## Jídlo
+  #### Jídlo
   - obědy: 812 Kč
   - večeře: 794 Kč
   - pivo (lahve): 522 Kč
-  ## Ostatní výdaje
+  #### Ostatní výdaje
   - ...
 {{< /boxify >}}
