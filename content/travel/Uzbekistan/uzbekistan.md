@@ -1,8 +1,8 @@
 +++
-title = "Uzbekistán"
-date = 2026-07-31
+title = "Uzbekistán 23.9.-7.10.2026"
+date = 2026-10-08
 draft = false
-summary = "Planning of the trip to Uzbekistan 2026"
+summary = "Trip to Uzbekistan 2026"
 mermaid = true
 defaultContentLanguage = "cs"
 
