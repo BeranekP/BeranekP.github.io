@@ -303,7 +303,7 @@ flowchart LR
   - Seven Lakes: **1 281 Kč**
   #### Vstupy
   - vstupy do madras, mešit a minaretů: **1 770 Kč**
-  - WC: **184 Kč**
+  - WC: **31 Kč**
   #### Jídlo
   - obědy: **812 Kč**
   - večeře: **794 Kč**
