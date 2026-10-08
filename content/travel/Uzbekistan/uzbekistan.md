@@ -287,25 +287,25 @@ flowchart LR
 {{< boxify done >}}
 ### Náklady na osobu
   #### Doprava
-  - letenka *PRG-IST-TAS* a zpět: 13 381 Kč :white_check_mark:
-  - letenka *TAS-NCU*: 1454 Kč :white_check_mark:
-  - vlak *Chiva → Buchara 1*: 586 Kč :white_check_mark:
-  - vlak *Buchara 1 → Samarkand*: 395 Kč :white_check_mark:
-  - vlak *Samarkand → Taškent*: 634 Kč :white_check_mark:
-  - taxi *Yandex*: 383 Kč
+  - letenka *PRG-IST-TAS* a zpět: **13 381 Kč** :white_check_mark:
+  - letenka *TAS-NCU*: **1 454 Kč** :white_check_mark:
+  - vlak *Chiva → Buchara 1*: **586 Kč** :white_check_mark:
+  - vlak *Buchara 1 → Samarkand*: **395 Kč** :white_check_mark:
+  - vlak *Samarkand → Taškent*: **634 Kč** :white_check_mark:
+  - taxi *Yandex*: **383 Kč**
+  #### Ubytování
+  - mimo yurty: **3 871 Kč**
   #### SIM
-  - UCell BOR 70, 140 GB: 129 Kč
+  - UCell BOR 70, 140 GB: **129 Kč**
   #### Túry s průvodcem
-  - Aral: 4 057 Kč
-  - Ancient Khorezm Fortresses: 1281 Kč
-  - Seven Lakes: 1281 Kč
+  - Aral: **4 057 Kč**
+  - Ancient Khorezm Fortresses: **1 281 Kč**
+  - Seven Lakes: **1 281 Kč**
   #### Vstupy
-  - vstupy do madras, mešit a minaretů: 1 770 Kč
-  - WC: 31 Kč
+  - vstupy do madras, mešit a minaretů: **1 770 Kč**
+  - WC: **184 Kč**
   #### Jídlo
-  - obědy: 812 Kč
-  - večeře: 794 Kč
-  - pivo (lahve): 522 Kč
-  #### Ostatní výdaje
-  - ...
+  - obědy: **812 Kč**
+  - večeře: **794 Kč**
+  - pivo (lahve): **522 Kč**
 {{< /boxify >}}
